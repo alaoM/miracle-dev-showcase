@@ -133,11 +133,20 @@ export const Contact = () => {
               <p className="font-semibold mb-4">Follow me on</p>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/alaoM"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-card rounded-lg border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300"
-                  aria-label="GitHub"
+                  aria-label="GitHub - alaoM"
+                >
+                  <Github className="w-5 h-5 text-primary" />
+                </a>
+                <a
+                  href="https://github.com/miracle-msmes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 bg-card rounded-lg border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300"
+                  aria-label="GitHub - miracle-msmes"
                 >
                   <Github className="w-5 h-5 text-primary" />
                 </a>

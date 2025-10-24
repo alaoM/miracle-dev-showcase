@@ -15,11 +15,20 @@ export const Footer = () => {
           {/* Social Links */}
           <div className="flex gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/alaoM"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
-              aria-label="GitHub"
+              aria-label="GitHub - alaoM"
+            >
+              <Github className="w-5 h-5" />
+            </a>
+            <a
+              href="https://github.com/miracle-msmes"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              aria-label="GitHub - miracle-msmes"
             >
               <Github className="w-5 h-5" />
             </a>
