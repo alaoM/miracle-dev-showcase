@@ -1,24 +1,10 @@
-import profileImage from "@/assets/profile.jpg";
-
 export const About = () => {
   return (
     <section id="about" className="section-padding bg-card/30">
       <div className="container-custom">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Image */}
-          <div className="order-2 md:order-1 animate-fade-in-up">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-2xl blur-2xl" />
-              <img
-                src={profileImage}
-                alt="Miracle Olaoluwa ALAO"
-                className="relative rounded-2xl shadow-2xl w-full max-w-md mx-auto border-2 border-primary/20 hover:border-primary/40 transition-all duration-300"
-              />
-            </div>
-          </div>
-
+        <div className="max-w-4xl mx-auto">
           {/* Content */}
-          <div className="order-1 md:order-2 animate-fade-in-up space-y-6">
+          <div className="animate-fade-in-up space-y-6">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-2">
                 About <span className="text-gradient">Me</span>
