@@ -15,8 +15,7 @@ export const About = () => {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 I'm a <span className="text-foreground font-semibold">Front-End Developer</span> and{" "}
-                <span className="text-foreground font-semibold">Systems Engineer</span> based in{" "}
-                <span className="text-primary">Ilorin, Nigeria</span>, with over{" "}
+                <span className="text-foreground font-semibold">Systems Engineer</span> with over{" "}
                 <span className="text-primary font-semibold">4 years of experience</span> building,
                 optimizing, and maintaining modern web applications and IT systems.
               </p>
